@@ -1,0 +1,50 @@
+# Node.js
+node_modules/
+.env
+.env.local
+.env.development
+.env.production
+
+# Firebase service account
+service-account-key.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Swagger generated files (si generas docs locales)
+swagger-output.json
+
+# Compiled files
+dist/
+build/
+
+# IDE config files
+.vscode/
+.idea/
+
+# Debug and temp files
+*.tmp
+*.swp
+*.bak
+
+# Coverage reports (si usas tests)
+coverage/
+
+# Firebase emulators (opcional)
+firebase-debug.log
+firebase-emulators/
+
+# PM2 logs (si usas PM2 para correr el backend)
+pids/
+*.pid
+*.seed
+*.pid.lock
+
